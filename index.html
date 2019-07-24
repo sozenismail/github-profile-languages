@@ -37,9 +37,9 @@
 
     <div class="card alert-success">
 
-        <div v-for="i in lengh" :key="lengh" class="card-body" style="font-weight: bold;">
+        <div v-for="(item, index) in lengh" class="card-body" style="font-weight: bold;">
                 
-            {{ langu[i] }}
+            {{ langu[index] }}
              
         </div>
          
